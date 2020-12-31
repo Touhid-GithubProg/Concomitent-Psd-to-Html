@@ -11,6 +11,9 @@ html,body{
 a{
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
 .container{
     max-width: 96rem;
     width: 100%;
@@ -19,8 +22,8 @@ a{
     background-color: white;
 }
 /* --------------Header Section-------------- */
-
-#header .container{
+        /* --------------Topbar Section-------------- */
+#header .top-header{
     display: flex;
     justify-content: space-between;
     border-top: .5rem solid #81b300;
@@ -103,4 +106,61 @@ a{
 }
 .right-header .mini-menu a:last-child::after{
     display: none;
+}
+
+/* --------------Navabr Section-------------- */
+.navbar .nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: #81b300;
+}
+.main-nav{
+    padding: 3rem 0rem;
+}
+.main-nav .nav-item{
+    display: inline-block;
+}
+.main-nav .nav-item .nav-link{
+    position: relative;
+    display: block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-right: 1.5rem;
+    color: white;
+}
+.main-nav .nav-item .nav-link::after{
+    position: absolute;
+    bottom: -.5rem;
+    left: 0;
+    content: '';
+    display: block;
+    height: .2rem;
+    width: 100%;
+    transform: scaleX(0);
+    background-color: white;
+    transition: transform .3s;
+}
+.main-nav .nav-item .nav-link:hover.nav-link::after{
+    transform: scaleX(1);
+}
+.main-nav .nav-item:last-child .nav-link{
+    margin-right: 0;
+}
+.nav-wrapper .search-area{
+    padding: 2.4rem;
+}
+.nav-wrapper .search-area input{
+    display: inline-block;
+    border: none;
+    padding: .6rem;
+    background-color: white;
+}
+.nav-wrapper .search-area input[type = text]{
+    border-right: .1rem solid rgb(209, 206, 206);
+}
+.nav-wrapper .search-area input[type = submit]{
+    cursor: pointer;
+    color: #81b300;
+    text-transform: uppercase;
+    font-weight: 600;
 }
