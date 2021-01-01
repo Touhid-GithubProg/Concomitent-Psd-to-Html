@@ -88,6 +88,10 @@ ul{
     font-size: 1.4rem;
     margin: 0 .4rem;
     color:  #81b300;
+    transition: color .3s;
+}
+.right-header .mini-menu a:hover{
+    color: black;
 }
 .right-header .mini-menu a:first-child{
     margin-left: 0;
@@ -147,7 +151,7 @@ ul{
     margin-right: 0;
 }
 .nav-wrapper .search-area{
-    padding: 2.4rem;
+    padding: 2.4rem 0rem;
 }
 .nav-wrapper .search-area input{
     display: inline-block;
@@ -157,10 +161,12 @@ ul{
 }
 .nav-wrapper .search-area input[type = text]{
     border-right: .1rem solid rgb(209, 206, 206);
+    font-size: 1.4rem;
 }
 .nav-wrapper .search-area input[type = submit]{
     cursor: pointer;
     color: #81b300;
-    text-transform: uppercase;
     font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
