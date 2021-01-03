@@ -6,6 +6,7 @@
 }
 html,
 body {
+  font-family: sans-serif;
   font-size: 10px;
   background-color: black;
 }
@@ -212,4 +213,25 @@ ul {
 .slider-area{
   padding-top: 3rem;
   overflow: hidden;
+  background-color: #f2f2f2;
+  border-bottom: .1rem solid #e0e0e0;
+}
+
+/* ----------Feature Area---------- */
+.feature-area .container{
+  display: flex;
+  justify-content: space-between;
+}
+.feature-area .item{
+  width: 20%;
+  text-align: center;
+  margin: 5rem 1rem;
+}
+.feature-area h3{
+  font-size: 1.8rem;
+  margin: 2rem 0rem;
+  color: #81b300;
+}
+.feature-area .info{
+  font-size: 1.3rem;
 }
