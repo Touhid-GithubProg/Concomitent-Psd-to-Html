@@ -4,4 +4,6 @@ $(document).ready(function () {
             'closeOnClick': false,
         });
     });
+    /* Bx Slider */
+    $('.slider').bxSlider();
 })

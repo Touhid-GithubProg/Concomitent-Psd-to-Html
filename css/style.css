@@ -181,7 +181,7 @@ ul {
 .main-nav .nav-item:last-child:hover .dropdown-menu {
   display: block;
 }
-/* Drop area end */
+/* Dropdown area end */
 
 .nav-wrapper .search-area {
   padding: 2.4rem 0rem;
@@ -206,4 +206,10 @@ ul {
 /* ---Slicknav mobile menu--- */
 .slicknav_menu {
   display: none;
+}
+
+/* -------Slider area------- */
+.slider-area{
+  padding-top: 3rem;
+  overflow: hidden;
 }
