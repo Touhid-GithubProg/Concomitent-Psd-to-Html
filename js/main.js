@@ -5,5 +5,8 @@ $(document).ready(function () {
         });
     });
     /* Bx Slider */
-    $('.slider').bxSlider();
+    $('.slider').bxSlider({
+        'auto':true,
+        'mode':'fade',
+    });
 })
