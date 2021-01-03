@@ -1,81 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Concomitant</title>
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
     <header id="header">
-        <div class="top-header container">
-            <div class="logo-area">
-                <img src="./img/logo.png" alt="logo" class="logo">
-            </div>
-            <div class="right-header">
-                <div class="social-area">
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
-                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#"><i class="fa fa-rss"></i></a>
-                </div>
-                <div class="mini-menu">
-                    <a href="#" class="menu-item">Sign Up</a>
-                    <a href="#" class="menu-item">Login</a>
-                    <a href="#" class="menu-item">RSS Feeds</a>
-                    <a href="#" class="menu-item">Archived News</a>
-                </div>
-            </div>
+      <div class="top-header container">
+        <div class="logo-area">
+          <img src="./img/logo.png" alt="logo" class="logo" />
         </div>
-        <div class="navbar">
-            <div class="nav-wrapper container">
-                <ul class="main-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">homepage</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">style demo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">full width</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">dropdown</a>
-                        <ul class="dropdown-menu">
-                            <li class="dd-item">
-                                <a href="#" class="dd-link">Dropdown list 1</a>
-                            </li>
-                            <li class="dd-item">
-                                <a href="#" class="dd-link">Dropdown list 2</a>
-                            </li>
-                            <li class="dd-item">
-                                <a href="#" class="dd-link">Dropdown list 3</a>
-                            </li>
-                            <li class="dd-item">
-                                <a href="#" class="dd-link">Dropdown list 4</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="search-area">
-                    <form action="#">
-                        <input type="text" placeholder="Search Something..."><!--      Whitespace removing purpose
-                         --><input type="submit" value="Search">
-                    </form>
-                </div>
-            </div>
+        <div class="right-header">
+          <div class="social-area">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa fa-rss"></i></a>
+          </div>
+          <div class="mini-menu">
+            <a href="#" class="menu-item">Sign Up</a>
+            <a href="#" class="menu-item">Login</a>
+            <a href="#" class="menu-item">RSS Feeds</a>
+            <a href="#" class="menu-item">Archived News</a>
+          </div>
         </div>
+      </div>
+      <div class="navbar">
+        <div class="nav-wrapper container">
+          <ul class="main-nav" id="menu">
+            <li class="nav-item">
+              <a href="#" class="nav-link">homepage</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">style demo</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">full width</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">dropdown</a>
+              <ul class="dropdown-menu">
+                <li class="dd-item">
+                  <a href="#" class="dd-link">Dropdown list 1</a>
+                </li>
+                <li class="dd-item">
+                  <a href="#" class="dd-link">Dropdown list 2</a>
+                </li>
+                <li class="dd-item">
+                  <a href="#" class="dd-link">Dropdown list 3</a>
+                </li>
+                <li class="dd-item">
+                  <a href="#" class="dd-link">Dropdown list 4</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="search-area">
+            <form action="#">
+              <input
+                type="text"
+                placeholder="Search Something..."
+              /><!--      Whitespace removing purpose
+                         --><input type="submit" value="Search" />
+            </form>
+          </div>
+        </div>
+      </div>
     </header>
-    
-</body>
+
+    <!-- Scripts -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+    <script src="./js/jquery.slicknav.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
