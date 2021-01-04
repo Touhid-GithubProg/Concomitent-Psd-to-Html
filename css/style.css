@@ -244,3 +244,35 @@ img{
 .feature-area .info{
   font-size: 1.3rem;
 }
+
+/* ----------Project Area---------- */
+.project-area .container{
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 3rem;
+  border-top: .1rem solid #e2e2e2;
+}
+.project-area .project{
+  margin-right: 10px;
+}
+.project-area .project:last-child{
+  margin-right: 0;
+}
+.project-area .project img{
+  border: .5rem solid white;
+  outline: .1rem solid #e2e2e2;
+}
+.project-area .project .project-title{
+  font-size: 1.6rem;
+  padding: 1.5rem 0rem;
+}
+.project-area .project .project-info{
+  color: rgb(83, 83, 83);
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.project-area .project a{
+  text-align: right;
+  display: block;
+  font-size: 1.4rem;
+}
