@@ -15,6 +15,9 @@
   }
 }
 @media only screen and (max-width: 630px) {
+  .container{
+    padding: 0 1rem;
+  }
   .top-header {
     flex-direction: column;
     text-align: center;
@@ -49,5 +52,23 @@
   .feature-area .item{
     width: 100%;
     margin: 1.5rem 4rem;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .top-header .social-area a{
+    margin: 0 ;
+  }
+  .top-header .social-area a i{
+    font-size: 1.5rem;
+  }
+  .navbar .search-area{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navbar .search-area input[type=text]{
+    padding: .7rem .2rem;
+  }
+  .navbar .search-area input[type=submit]{
+    padding: .7rem;
   }
 }
