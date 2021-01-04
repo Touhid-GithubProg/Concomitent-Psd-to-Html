@@ -168,6 +168,7 @@ img{
   left: -1rem;
   width: 18rem;
   background-color: black;
+  z-index: 100;
 }
 .main-nav .nav-item:last-child .dropdown-menu .dd-item,
 .dd-link {
