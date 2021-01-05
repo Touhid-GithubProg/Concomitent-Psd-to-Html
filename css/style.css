@@ -9,6 +9,7 @@ body {
   font-family: sans-serif;
   font-size: 10px;
   background-color: black;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -16,7 +17,7 @@ a {
 ul {
   list-style: none;
 }
-img{
+img {
   max-width: 100%;
 }
 .container {
@@ -214,66 +215,154 @@ img{
 }
 
 /* -------Slider area------- */
-.slider-area{
+.slider-area {
   padding-top: 2rem;
   max-width: 960px;
   width: 100%;
   margin: auto;
   background-color: #f2f2f2;
 }
-.slider-area .container{
+.slider-area .container {
   overflow: hidden;
   background-color: #f2f2f2;
-  border-bottom: .1rem solid #e0e0e0;
+  border-bottom: 0.1rem solid #e0e0e0;
 }
 
 /* ----------Feature Area---------- */
-.feature-area .container{
+.feature-area .container {
   display: flex;
   justify-content: space-between;
 }
-.feature-area .item{
+.feature-area .item {
   width: 20%;
   text-align: center;
   margin: 5rem 1rem;
 }
-.feature-area h3{
+.feature-area h3 {
   font-size: 1.8rem;
   margin: 2rem 0rem;
   color: #81b300;
 }
-.feature-area .info{
+.feature-area .info {
   font-size: 1.3rem;
 }
 
 /* ----------Project Area---------- */
-.project-area .container{
+.project-area .container {
   display: flex;
   justify-content: space-between;
   padding: 5rem 3rem;
-  border-top: .1rem solid #e2e2e2;
+  border-top: 0.1rem solid #e2e2e2;
 }
-.project-area .project{
+.project-area .project {
   margin-right: 10px;
 }
-.project-area .project:last-child{
+.project-area .project:last-child {
   margin-right: 0;
 }
-.project-area .project img{
-  border: .5rem solid white;
-  outline: .1rem solid #e2e2e2;
+.project-area .project img {
+  border: 0.5rem solid white;
+  outline: 0.1rem solid #e2e2e2;
 }
-.project-area .project .project-title{
+.project-area .project .project-title {
   font-size: 1.6rem;
   padding: 1.5rem 0rem;
 }
-.project-area .project .project-info{
+.project-area .project .project-info {
   color: rgb(83, 83, 83);
   font-size: 1.2rem;
   padding-bottom: 1rem;
 }
-.project-area .project a{
+.project-area .project a {
   text-align: right;
   display: block;
   font-size: 1.4rem;
+}
+
+/* ----------footer Main Area---------- */
+.footer-area .container{
+  background-color: rgb(70, 69, 69);
+}
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(212, 212, 212);
+}
+.main-footer .footer-item{
+  max-width: 210px;
+  width: 100%;
+  padding: 4rem 0rem;
+  margin-right: 1rem;
+}
+.main-footer .footer-item:last-child{
+  margin-right: 0;
+}
+.main-footer .contact-area p{
+  max-width: 180px;
+  line-height: 2rem;
+}
+.main-footer .footer-item .item-header{
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+.main-footer .blog-area .blog-title{
+  font-size: 1.4rem;
+  padding-bottom: .2rem;
+  text-transform: capitalize;
+}
+.main-footer .blog-area span{
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  display: block;
+}
+.main-footer .blog-area p{
+  line-height: 1.8rem;
+}
+.main-footer .footer-item p{
+  font-size: 1.2rem;
+}
+.main-footer .links-area .links{
+  display: block;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: rgb(158, 157, 157);
+  padding: .5rem 0rem;
+  transition: .3s;
+}
+.main-footer .links-area .links:hover{
+  color: #d6d5d5;
+}
+.main-footer .links-area hr{
+  color: rgb(114, 114, 114);
+}
+.main-footer .news-area form input{
+  display: block;
+  font-size: 1.5rem;
+}
+.main-footer .news-area form input[type = text]{
+  padding: .7rem;
+  border: none; 
+  border-radius: .5rem;
+  margin-bottom: 1.3rem;
+  background-color: #000;
+}
+.main-footer .news-area form input[type = text]:focus{
+  outline: none;
+}
+.main-footer .news-area form input[type = text]::placeholder{
+  color: #f2f2f2;
+}
+.main-footer .news-area form input[type=submit]{
+  font-size: 1.7rem;
+  color: #81b300;
+  background-color: #000;
+  border: none;
+  padding: .8rem 1.7rem;
+  font-weight: bold;
+  transition: .3s;
+  cursor: pointer;
+  border-radius: .5rem;
+}
+.main-footer .news-area form input[type=submit]:hover{
+  color: #b1db47;
 }

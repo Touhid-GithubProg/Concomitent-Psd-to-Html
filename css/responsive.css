@@ -25,6 +25,16 @@
     text-align: center;
     margin-top: 2rem;
   }
+  .main-footer{
+    flex-wrap: wrap;
+  }
+  .main-footer .footer-item{
+    width: 47%;
+    max-width: none;
+  }
+  .main-footer .footer-item:nth-child(2){
+    margin-right: 0;
+  }
 }
 @media only screen and (max-width: 630px) {
   .container{
@@ -64,6 +74,10 @@
   .feature-area .item{
     width: 100%;
     margin: 1.5rem 4rem;
+  }
+  .main-footer .footer-item{
+    width: 100%;
+    margin-right: 0;
   }
 }
 @media only screen and (max-width: 430px) {
